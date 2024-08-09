@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "rairu Amazon URL Cleaner",
+    "name": "Amazon URL Cleaner",
     "version": "1.0",
     "permissions": ["storage","tabs", "activeTab","scripting"],
     "action": {
