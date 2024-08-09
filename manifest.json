@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "rairu Amazon URL Cleaner",
+    "version": "1.0",
+    "permissions": ["storage","tabs", "activeTab","scripting"],
+    "action": {
+      "default_popup": "",
+      "default_icon": {}
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://www.amazon.com/*", "*://www.amazon.co.jp/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
